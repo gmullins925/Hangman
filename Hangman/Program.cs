@@ -11,7 +11,9 @@ namespace ConsoleApplication6
 		{
 			Random random = new Random((int)DateTime.Now.Ticks);
 
-			string[] wordBank = { "Blue", "Black", "Yellow", "Orange", "Green", "Purple" };
+			string[] wordBank = { "CRUST", "DECAPITATION", "GRAPE", "FRIED", "DELICATESSEN",
+				"JUNKYARD", "BABYSITTER", "BLUNDER", "AFTERLIFE", "APOLOGY", "INNER", "DECAY", "CRIME",
+				"CONFLICT", "MUTANT", "CHRONOLOGICAL", "MOMENT", "BEDTIME", "LEGEND", "EVERYONE" };
 
 			string wordToGuess = wordBank[random.Next(0, wordBank.Length)];
 			string wordToGuessUppercase = wordToGuess.ToUpper();
